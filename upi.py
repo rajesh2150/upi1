@@ -38,6 +38,8 @@ if pin==user_pin and myname==user_name: #validation
                 print('----------------------------------------------')
                 print('')
                 print('Your Remaing is balance:',remaing_bal)
+             else:
+                print("Wrong pin Entered")
         else:
             print('-------------------')
             print("Invalid Number Entered")
